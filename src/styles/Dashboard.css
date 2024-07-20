@@ -1,0 +1,70 @@
+/* src/styles/Dashboard.css */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0; /* Cambiar el fondo a un color atractivo */
+}
+
+.dashboard-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.dashboard-container {
+    background: rgba(255, 255, 255, 0.486);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 600px;
+}
+
+.dashboard-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group label {
+    color: #333;
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.input-group input, .input-group select {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #cccccc54;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px; /* Espacio entre botones */
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #444;
+}
